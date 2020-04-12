@@ -51,7 +51,7 @@ export default class App extends React.Component {
         <h1> Mortgage Calculator</h1>
         <input onChange={this.handleChange} name = 'principal' />
         <input onChange={this.handleChange} name = 'interestRate' />
-        <input onChange={this.handleChamge} name = 'loanTerm' />
+        <input onChange={this.handleChange} name = 'loanTerm' />
         <select onChange={this.handleChange} name = 'period' >
           <option value = '12'>Monthly</option>
           <option value = '4'>Quarterly</option>
